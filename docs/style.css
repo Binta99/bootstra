@@ -1,0 +1,183 @@
+body {
+  background-image: url(hero-bg.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.sec-4-wrapper .carte-gradient .icone-hover {
+  color: royalblue;
+}
+
+.sec-4-wrapper .carte-gradient {
+  box-shadow: 0 0 50px rgb(202, 200, 200);
+  transition: 0.4s;
+  background-color: white;
+}
+
+.sec-4-wrapper .carte-gradient:hover {
+  background-color: blue;
+  color: white;
+}
+
+.sec-4-wrapper .carte-gradient:hover .icone-hover {
+  color: white;
+}
+
+.sec-6-wrapper .position-icone {
+  position: relative;
+}
+.sec-6-wrapper .position-icone .position-i i {
+  position: absolute;
+  top: -28px;
+  right: 45%;
+}
+
+.sec-7-wrapper .box-car {
+  transition: 0.4s;
+}
+.sec-7-wrapper .box-car:hover {
+  box-shadow: 0 0 50px rgb(202, 200, 200);
+}
+
+.sec-7-wrapper .background {
+  background-image: url(testimonials-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-7-wrapper .carousel-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.sec8-wrapper .surposition {
+  background-image: url(testimonials-4.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+.sec8-wrapper .surposition-1 {
+  background-image: url(testimonials-5.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+.sec8-wrapper .surposition-2 {
+  background-image: url(testimonials-3.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+.sec8-wrapper .positionement,
+.sec8-wrapper .positionement-1,
+.sec8-wrapper .positionement-2 {
+  margin-bottom: 30px;
+  transition: 0.4s;
+  display: none;
+}
+
+.sec8-wrapper .surposition:hover .positionement,
+.sec8-wrapper .surposition-1:hover .positionement,
+.sec8-wrapper .surposition-2:hover .positionement {
+  display: block;
+}
+
+.sec-9-wrapper .bg-img {
+  background-image: url(team-1.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+.sec-9-wrapper .bg-img-1 {
+  background-image: url(team-2.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+.sec-9-wrapper .bg-img-2 {
+  background-image: url(team-3.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+.sec-9-wrapper .bg-img-3 {
+  background-image: url(team-4.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.4s;
+}
+
+.sec-9-wrapper .bg-img .icone i,
+.sec-9-wrapper .bg-img-1 .icone-1 i,
+.sec-9-wrapper .bg-img-2 .icone-2 i,
+.sec-9-wrapper .bg-img-3 .icone-3 i {
+  margin-bottom: 30px;
+}
+
+.sec-9-wrapper .bg-img .icone,
+.sec-9-wrapper .bg-img-1 .icone-1,
+.sec-9-wrapper .bg-img-2 .icone-2,
+.sec-9-wrapper .bg-img-3 .icone-3 {
+  display: none;
+  transition: 0.4s;
+  flex-direction: row;
+  justify-content: center;
+}
+.sec-9-wrapper .bg-img:hover .icone,
+.sec-9-wrapper .bg-img-1:hover .icone-1,
+.sec-9-wrapper .bg-img-2:hover .icone-2,
+.sec-9-wrapper .bg-img-3:hover .icone-3 {
+  display: flex;
+}
+
+.sec-10-wrapper .all-button {
+  height: 100%;
+}
+.sec-12-wrapper .dash i {
+  border: 2px dashed;
+}
+
+.sec-12-wrapper .dash {
+  box-shadow: 0 0 50px rgb(202, 200, 200);
+}
+
+.sec-12-wrapper .carte {
+  background-image: url(StaticMapService.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.sec-12-wrapper .form {
+  height: 500px;
+  box-shadow: 0 0 50px rgb(202, 200, 200);
+}
